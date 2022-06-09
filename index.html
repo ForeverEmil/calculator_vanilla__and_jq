@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <!-- Add Css -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Add JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id='root'>
+        <div id="calculate">
+            <input class="item item__display" type="text" id='display' placeholder="0" />
+
+            <button class="item item__secondary" id="clear">AC</button>
+            <button class="item item__secondary">+/-</button>
+            <button class="item item__secondary">%</button>
+            <button class="item item__primary">/</button>
+            <button class="item item__numbers">7</button>
+            <button class="item item__numbers">8</button>
+            <button class="item item__numbers">9</button>
+            <button class="item item__primary">*</button>
+            <button class="item item__numbers">4</button>
+            <button class="item item__numbers">5</button>
+            <button class="item item__numbers">6</button>
+            <button class="item item__primary">-</button>
+            <button class="item item__numbers">1</button>
+            <button class="item item__numbers">2</button>
+            <button class="item item__numbers">3</button>
+            <button class="item item__primary">+</button>
+            <button class="item item__numbers item--zero">0</button>
+            <button class="item item__numbers">.</button>
+            <button class="item item__primary" id="result">=</button>
+        </div>
+    </div>
+
+    <!-- Add Script -->
+    <script src='./script.js'> </script>
+</body>
+
+</html>
